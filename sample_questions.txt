@@ -1,0 +1,17 @@
+Sample question 1 - Tuple assignment
+a = 4
+b = 7
+a, b = b, a
+print(a)
+print(b)
+Expected output:
+7
+4
+
+Sample question 2 - Loop
+total = 0
+for i in range(1, 5):
+    total = total + i
+print(total)
+Expected output:
+10
